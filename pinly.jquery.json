@@ -1,0 +1,31 @@
+{
+    "name": "Pinly",
+    "title": "Pinly - a numeric pin entry plugin",
+    "description": "Pinly adds a 100% configurable numeric pin login mechanism to the DOM. Features a responsive mobile keypad friendly design that just works straight out of the box. If you're more confident you can configure a completely unique look and feel by changing the styles in the CSS file included. Pinly takes care of user interactions, use tab or key a number to cycle forward, or use backspace to correct mistakes. Entering a pin is as easy as 1..2..3..4. Pinly supports custom callback methods for processing logins and comes packaged with two custom event handlers that listen for success & fail to make integration simple.",
+    "keywords": [
+        "login",
+        "javascript",
+        "css",
+        "pin",
+        "pinly"
+    ],
+    "version": "0.0.1",
+    "author": {
+        "name": "Rich Duncan",
+        "email": "richduncan@gmail.com",
+        "url": "http://codepen.io/KryptoniteDove"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/KryptoniteDove/pinly/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/KryptoniteDove/pinly/blob/master/ISSUES",
+    "homepage": "http://codepen.io/KryptoniteDove/pen/EaBMzx",
+    "docs": "https://github.com/KryptoniteDove/pinly/",
+    "download": "https://github.com/KryptoniteDove/pinly/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=2.x"
+    }
+}

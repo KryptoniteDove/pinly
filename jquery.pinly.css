@@ -1,0 +1,101 @@
+/* PINLY jQuery Plugin by Rich Duncan version 1.0.1 styles */
+
+/* Rules for positioning of wrapper */
+.pinly-wrap {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+/* Rules for pinly input fields */
+.pinly-point {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 3px;
+  background: #ECECEC;
+  border-radius: 100px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.pinly-point:focus {
+  color: transparent;
+  text-shadow: 0 0 0 #fff;
+}
+
+.pinly-highlight {
+  background: #F64747;	
+}
+
+/* Rules that are applied on success of AJAX POST */
+.pinly-accepted {
+  background: #68C3A3;
+}
+
+/* Rules for text and positioning within pinly input number fields, if using another font you may want to change padding */
+.pinly-point  {
+  padding: 0px 3px 8px 3px;
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 5em;
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Pinly responsive styles */
+@media screen and (max-width: 600px) {
+
+  .pinly-wrap {
+    position: relative;
+    top: 10px;
+  }
+  .pinly-point {
+    width: 150px;
+    height: 150px;
+    font-size: 7em;
+  }
+	
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .pinly-point {
+    width: 130px;
+    height: 130px;
+    font-size: 5em;
+  }
+
+}
+
+
+/* Remove spinners on browsers that insist on adding them to number inputs */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+
+
+
+
+
